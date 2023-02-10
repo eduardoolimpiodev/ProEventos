@@ -34,14 +34,14 @@ namespace ProEventos.API.Controllers
         [HttpPost("{id}")]
         public string Post(int id)
         {
-            return $"Exemplo de post cim id = {id}";
+            return $"Exemplo de post com id = {id}";
         }    
 
         
         [HttpPut("{id}")]
         public string Delete(int id)
         {
-            return $"Exemplo de Put cim id = {id}";
+            return $"Exemplo de Put com id = {id}";
         }         
     }
 }
